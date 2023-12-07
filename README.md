@@ -23,4 +23,4 @@ Press your console button (defeult button: under esc) and write:
 # Can ı update commands?
 
 Yes, 
-You can go ``AppData\Roaming\EXILED\Configs`` and open yourport.yml other supports avaible config.yml folder.
+You can go ``AppData\Roaming\EXILED\Configs`` and open yourport.yml, other supports avaible config.yml folder.
