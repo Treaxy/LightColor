@@ -7,16 +7,16 @@ You can install this plugin, download the .dll file and placing it in ``AppData\
 
 # How can ı use this plugin?
 
-Press your console button (defeult button: under esc) and write:
+Open your Remote Admin Console and write:
 
-.lightcolor red
-.lightcolor blue
-.lightcolor magenta
-.lightcolor white
-.lightcolor gray
-.lightcolor cyan
-.lightcolor yellow
-.lightcolor green
+lightcolor red
+lightcolor blue
+lightcolor magenta
+lightcolor green
+lightcolor gray
+lightcolor cyan
+lightcolor yellow
+lightcolor default
 (Dont use caps)
 
 
