@@ -1,20 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Exiled.API.Features;
-using Exiled;
-using Exiled.Events;
-using Exiled.Events.EventArgs;
-using Exiled.Events.Features;
-using PlayerRoles;
-using Playerev = Exiled.Events.Handlers.Player;
-using SRV = Exiled.Events.Handlers.Server;
-using AnomalyHub;
-using TMPro;
-using LightColor;
-using Exiled.CreditTags;
 using Config = LightColor.Config;
 
 namespace Lights
@@ -26,7 +11,7 @@ namespace Lights
 
         public override string Name => "LightColorPlugin";
 
-        public override Version Version => new Version(0, 1, 3);
+        public override Version Version => new Version(0, 2, 4);
 
         public override string Prefix => Name;
 
