@@ -1,8 +1,7 @@
 ﻿using System;
 using Exiled.API.Features;
-using Config = LightColor.Config;
 
-namespace Lights
+namespace LightColor
 {
 
     public sealed class Plugin : Plugin<Config>
@@ -20,34 +19,15 @@ namespace Lights
         public override void OnEnabled()
         {
             Instance = this;
-
-            RegisterEvents();
-
+            
             base.OnEnabled();
-            Log.Info("Successfully Active, By Treaxy");
         }
 
         public override void OnDisabled()
         {
-            UnregisterEvents();
-
             Instance = null;
 
             base.OnDisabled();
-            Log.Info("Successfully DeActive, By Treaxy");
-        }
-
-        private void RegisterEvents()
-        {
-            base.OnEnabled();
-            Log.Info("REGISTERED");
-        }
-
-        private void UnregisterEvents()
-        {
-            base.OnDisabled();
-            Log.Info("UNREGISTERED");
-
         }
     }
 
