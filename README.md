@@ -1,26 +1,20 @@
 ! [All new releases](https://github.com/Treaxy/LightColor/releases)
 
-# İnstallition:
+# Installation:
 
-You can install this plugin, download the .dll file and placing it in ``AppData\Roaming\EXILED\Plugins``.
+You can install this plugin, download the [.dll](https://github.com/Treaxy/LightColor/releases) file and placing it in ``%AppData%\Roaming\EXILED\Plugins``
 
 
-# How can ı use this plugin?
+# How to use ?
 
 Open your Remote Admin Console and write:
 
-lightcolor red,
-lightcolor blue,
-lightcolor magenta,
-lightcolor green,
-lightcolor gray,
-lightcolor cyan,
-lightcolor yellow,
-lightcolor default
-(Dont use caps)
+``clight`` 
 
+Usage: clight <global/room/reset> [r] [g] [b]
 
-# Can ı update commands?
+# Permission
 
-Yes, 
-You can go ``AppData\Roaming\EXILED\Configs`` and open yourport.yml, other supports avaible config.yml folder.
+The permission you can give in the permission file:
+
+`- LightChanger`
