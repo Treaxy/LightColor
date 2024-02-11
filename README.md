@@ -1,4 +1,4 @@
-! [All new releases](https://github.com/Treaxy/LightColor/releases)
+! [All new releases](https://github.com/Treaxy/LightColor/releases) !
 
 # İnstallition:
 
